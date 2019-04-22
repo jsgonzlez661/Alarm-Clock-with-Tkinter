@@ -8,7 +8,7 @@ Uses a sqlite3 database
 
 Plays the sound of the alarm
 
-# Requirements
+## Requirements
 * Python 3
 * Tkinter
 * Sqlite3 
@@ -18,7 +18,7 @@ Plays the sound of the alarm
 pip install playsound
 ~~~
 
-# Screenshot
+## Screenshot
 
 Clock with alarm
 
