@@ -183,7 +183,7 @@ class MyGUI():
 				self.select_hours.config(buttondownrelief="flat", readonlybackground="white")
 				self.select_hours.place(x=10, y=5)
 
-				self.select_minutes = Spinbox(self.space_alarm2, from_=0, to=59, width=2, font=("Roboto Light", 50), bd=0, relief='flat', activebackground="white")
+				self.select_minutes = Spinbox(self.space_alarm2, from_=00, to=59, format="%02.0f", width=2, font=("Roboto Light", 50), bd=0, relief='flat', activebackground="white")
 				self.select_minutes.config(buttondownrelief="flat", readonlybackground="white", state="readonly")
 				self.select_minutes.place(x=150, y=5)
 				
